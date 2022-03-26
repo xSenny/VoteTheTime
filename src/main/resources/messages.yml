@@ -1,0 +1,51 @@
+
+Vote_announcement1: '&6&lTimeVote &fA time vote will follow. &6Time remaining: &a1 minute'
+Vote_announcement2: '&6&lTimeVote &fA time vote will follow. &6Time remaining: &a20 seconds'
+Vote_announcement3: '&6&lTimeVote &fA time vote will follow. &6Time remaining: &a3 seconds'
+
+No_Vote_seted: '&6&lTimeVote &6Now there is a time vote, if you want to participate in the next time votes it is necessary to use the command &a/timetoggle'
+
+Toggle_true: '&6&lTimeVote &aNow you can participate in the next time voting sessions.'
+Toggle_false: '&6&lTimeVote &4Now you cannot participate in the next time voting sessions. Use &a/timetoggle &4again.'
+
+Toggle_true_admin: '&6&lTimeVote &fAn admin has toggle your vote time participation to true, you can participate again with /timetoggle'
+Toggle_false_admin: '&6&lTimeVote &fAn admin has toggle your vote time participation to false, you can participate again with /timetoggle'
+
+
+
+Reload: '&6&lTimeVote &2All .yml files have been reloaded!'
+No_permission: '&6&lTimeVote &4You do not have permission for do that!'
+No_console: '&6&lTimeVote Please use that command in game.'
+
+Vote_night: '&6&lTimeVote &4You have voted to will be night.'
+Vote_day: '&6&lTimeVote &aYou have voted to will be day.'
+
+Votes_day: '&6&lTimeVote &aThe online players have voted to will be day.'
+Votes_night: '&6&lTimeVote &aThe online players have voted to will be night.'
+Votes_Draw: '&6&lTimeVote &6The votes were equal, a random time will be chosen.'
+
+Gui:
+  name: '&7Vote the time'
+  items:
+    day:
+      name: '&aDay'
+      lore:
+        - '&aClick on this button to vote'
+        - '&aso that in the next moments'
+        - '&ait will be day.'
+    night:
+      name: '&4Night'
+      lore:
+        - '&4Click on this button to vote'
+        - '&4so that in the next moments'
+        - '&4it will be night.'
+    cancel:
+      name: '&cCancel'
+      lore:
+        - '&cCancel this vote.'
+
+AdminHelp:
+  - '&6-=-=-=-=-=-=-=-=-=-=&fTimeVote&6-=-=-=-=-=-=-=-=-=-='
+  - '&6/tva reload &7- &aReload the .yml files'
+  - '&6/tva force &7- &aForce start a new Time Vote session'
+  - '&6-=-=-=-=-=-=-=-=-=-=&fBy xSenny_&6-=-=-=-=-=-=-=-=-=-='
