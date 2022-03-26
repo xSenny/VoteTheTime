@@ -1,0 +1,19 @@
+#Set the time interval in seconds between voting requests:
+#Use only integer numbers!!
+
+TIME_INTERVAL: 600
+
+#Set the time in seconds allowed for all player to vote the next time:
+#Use only integer numbers!!
+
+TIME_ALLOWED: 10
+
+#In this worlds, the time will be changed when players vote:
+Worlds:
+  - 'world'
+
+#Set the ticks in world to set after a time vote:
+
+Night: 18000
+
+Day: 1000
