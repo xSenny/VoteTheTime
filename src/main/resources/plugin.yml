@@ -1,0 +1,10 @@
+name: VoteTheTime
+version: '${project.version}'
+main: me.xsenny.votethetime.VoteTheTime
+api-version: 1.16
+commands:
+  votetoggle:
+    description: A default description
+  timevoteadmin:
+    description: a command for admins
+    aliases: tva
